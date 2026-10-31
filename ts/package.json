@@ -1,0 +1,29 @@
+{
+  "name": "@ranjeet2063/nepal-remit-core",
+  "version": "0.1.0",
+  "description": "Non-custodial cross-border settlement gateway bridging Stellar / Soroban to Nepal Clearing House Limited (NCHL/ConnectIPS/NPI) payment batch format",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "node --test --experimental-strip-types test/index.test.ts"
+  },
+  "keywords": [
+    "nepal",
+    "remittance",
+    "stellar",
+    "soroban",
+    "nchl",
+    "connectips",
+    "npi",
+    "iso20022"
+  ],
+  "author": "Ranjeet2063 <ranjeet2063@users.noreply.github.com>",
+  "license": "MIT"
+}
