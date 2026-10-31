@@ -1,0 +1,12 @@
+[package]
+name = "nepal-remit-core"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ranjeet2063 <ranjeet2063@users.noreply.github.com>"]
+description = "Non-custodial cross-border settlement gateway bridging Stellar / Soroban to Nepal Clearing House Limited (NCHL/ConnectIPS/NPI) payment batch format"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Ranjeet2063/nepal-remit-core"
+keywords = ["nepal", "remittance", "stellar", "nchl", "connectips"]
+categories = ["cryptography::cryptocurrencies", "finance"]
+
+[dependencies]
